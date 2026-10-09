@@ -49,7 +49,7 @@ export const AboutSettingsPane = (args: AboutSettingsPaneProps) => {
       <div className="space-y-4 pt-3 text-base-fg">
         <div className="space-y-1">
           <Label>
-            Artcraft Version
+            Artroom Version
           </Label>
           <div
             className="text-sm font-medium"
@@ -61,7 +61,7 @@ export const AboutSettingsPane = (args: AboutSettingsPaneProps) => {
         </div>
 
         <div className="space-y-1">
-          <Label>Artcraft Host</Label>
+          <Label>Artroom Host</Label>
           <div className="break-all text-sm font-medium">{appInfo?.storyteller_host}</div>
         </div>
 
@@ -91,7 +91,7 @@ export const AboutSettingsPane = (args: AboutSettingsPaneProps) => {
 
         <div className="space-y-1">
           <Label>
-            Artcraft Data Directory
+            Artroom Data Directory
           </Label>
           <div className="break-all text-sm font-medium">{appInfo?.artcraft_root_directory}</div>
         </div>
