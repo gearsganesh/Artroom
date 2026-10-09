@@ -1695,21 +1695,6 @@ dependencies = [
 
 [[package]]
 name = "dom_query"
-version = "0.20.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f2646c2bb4993c86006961293208b69d86a2b254356889ddad826e9df3f684f9"
-dependencies = [
- "bit-set",
- "cssparser 0.35.0",
- "foldhash 0.1.5",
- "html5ever 0.35.0",
- "precomputed-hash",
- "selectors 0.30.0",
- "tendril 0.4.3",
-]
-
-[[package]]
-name = "dom_query"
 version = "0.27.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "521e380c0c8afb8d9a1e83a1822ee03556fc3e3e7dbc1fd30be14e37f9cb3f89"
@@ -3907,7 +3892,7 @@ dependencies = [
  "ciborium",
  "cloudflare_errors",
  "cookie_store_wrapper",
- "dom_query 0.20.2",
+ "dom_query",
  "errors",
  "filesys",
  "futures",
@@ -5888,25 +5873,6 @@ dependencies = [
 
 [[package]]
 name = "selectors"
-version = "0.30.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3df44ba8a7ca7a4d28c589e04f526266ed76b6cc556e33fe69fa25de31939a65"
-dependencies = [
- "bitflags 2.11.0",
- "cssparser 0.35.0",
- "derive_more",
- "fxhash",
- "log",
- "new_debug_unreachable",
- "phf 0.11.2",
- "phf_codegen 0.11.3",
- "precomputed-hash",
- "servo_arc",
- "smallvec",
-]
-
-[[package]]
-name = "selectors"
 version = "0.31.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5685b6ae43bfcf7d2e7dfcfb5d8e8f61b46442c902531e41a32a9a8bf0ee0fb6"
@@ -7170,7 +7136,7 @@ dependencies = [
  "brotli",
  "cargo_metadata",
  "ctor",
- "dom_query 0.27.0",
+ "dom_query",
  "dunce",
  "glob",
  "http",
@@ -9194,7 +9160,7 @@ dependencies = [
  "cookie",
  "crossbeam-channel",
  "dirs",
- "dom_query 0.27.0",
+ "dom_query",
  "dpi",
  "dunce",
  "gdkx11",
