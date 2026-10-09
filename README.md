@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/brand/artroom-logo.svg" alt="Artroom" width="300"></p>
+
 <h1 align="center">Artroom</h1>
 <p align="center"><strong>The IDE for artists.</strong></p>
 
