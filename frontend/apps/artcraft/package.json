@@ -19,7 +19,7 @@
     "staging-build": "vite build",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint playground/* .",
     "typecheck": "tsc",
-    "chromatic": "npx chromatic --project-token=chpt_0945f90d5d3626c",
+    "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN",
     "prepare": "husky",
     "test": "jest"
   },
